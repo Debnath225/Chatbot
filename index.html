@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Chatbot</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(135deg, #2ad404, #d4dbe9);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .cursor-effect {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: radial-gradient(
+          circle,
+          rgba(241, 4, 4, 0.2) 10%,
+          transparent 40%
+        );
+        border-radius: 50%;
+        pointer-events: none;
+        transition: transform 0.1s ease-out;
+        z-index: 1;
+      }
+
+      .chatbot-container {
+        perspective: 1000px;
+        text-align: center;
+      }
+
+      .chatbot {
+        width: 180px;
+        height: 180px;
+        background: linear-gradient(135deg, #ff758c, #ff7eb3);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        animation: rotate 6s infinite linear;
+        transform-style: preserve-3d;
+      }
+
+      .chatbot::before,
+      .chatbot::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        top: 50px;
+      }
+
+      .chatbot::before {
+        left: 40px;
+      }
+
+      .chatbot::after {
+        right: 40px;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotateY(0deg);
+        }
+        100% {
+          transform: rotateY(360deg);
+        }
+      }
+
+      .chatbox {
+        margin-top: 20px;
+        width: 320px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        color: #333;
+      }
+
+      #chatbot-response {
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: left;
+      }
+
+      .chatbox input {
+        width: calc(100% - 20px);
+        padding: 12px 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+      }
+
+      .chatbox input:focus {
+        outline: none;
+        border-color: #1e3c72;
+        box-shadow: 0 0 8px rgba(30, 60, 114, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cursor-effect"></div>
+    <div class="chatbot-container">
+      <div class="chatbot"></div>
+      <div class="chatbox">
+        <p id="chatbot-response">
+          Hello! I'm your chatbot. How can I assist you today?
+        </p>
+        <br />
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your message here..."
+          autocomplete="on"
+          suggetion="on"
+          autocorrect="on"
+          spellcheck="true"
+        />
+      </div>
+    </div>
+    <script>
+      const cursorEffect = document.querySelector(".cursor-effect");
+
+      // Update the position of the cursor effect on mousemove
+      document.body.addEventListener("mousemove", (e) => {
+        cursorEffect.style.transform = `translate(${e.clientX - 778}px, ${
+          e.clientY - 370
+        }px)`;
+      });
+
+      const chatWindow = document.getElementById("chatbot-response");
+      const userInputField = document.getElementById("user-input");
+      let responses = {}; // To store the loaded responses
+
+      // Fetch responses from responses.json
+      fetch("responses.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to load responses.json");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          responses = data; // Store the loaded responses
+        })
+        .catch((error) => {
+          console.error("Error loading responses:", error);
+        });
+
+      // Function to get a random response from the list of responses for a given question
+      function getResponse(userInput) {
+        userInput = userInput.toLowerCase();
+        if (responses[userInput]) {
+          const answers = responses[userInput];
+          return answers[Math.floor(Math.random() * answers.length)];
+        } else {
+          return responses["default"][
+            Math.floor(Math.random() * responses["default"].length)
+          ];
+        }
+      }
+
+      // Add an event listener to the input field to send a message when the Enter key is pressed
+      userInputField.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+          const userInput = userInputField.value.trim();
+          if (userInput) {
+            const chatbotResponse = getResponse(userInput);
+            chatWindow.innerHTML = `<i class="fa-brands fa-telegram" style="font-size:1.1rem"></i>  ${chatbotResponse}`;
+            userInputField.value = "";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

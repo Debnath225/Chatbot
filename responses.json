@@ -1,0 +1,176 @@
+{
+  "hello": ["Hi there!", "Hello!", "Hey! How can I help you?"],
+  "how are you": [
+    "I'm good, thanks!",
+    "Doing great! What about you?",
+    "I'm here to assist you!"
+  ],
+  "what is your name": [
+    "I'm your friendly chatbot!",
+    "You can call me ChatBuddy!",
+    "ChatBot at your service!"
+  ],
+  "bye": ["Goodbye!", "See you later!", "Bye! Have a great day!"],
+  "thank you": ["You're welcome!", "No problem!", "Glad to help!"],
+  "help": [
+    "Sure! What do you need help with?",
+    "I'm here to assist you. What do you need?",
+    "How can I help you today?"
+  ],
+  "weather": [
+    "I can't check the weather, but I hope it's nice!",
+    "Weather is always changing, isn't it?",
+    "I love sunny days!"
+  ],
+  "hi": ["Hello!", "Hi there!", "Hey! How can I assist you?"],
+  "what's your favorite color": [
+    "I like all colors!",
+    "Colors are beautiful, aren't they?",
+    "I don't have a favorite, but I love the rainbow!"
+  ],
+  "joke": [
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "I told my computer I needed a break, and now it won't stop sending me beach wallpapers!",
+    "Why don't scientists trust atoms? Because they make up everything!"
+  ],
+  "what is your purpose": [
+    "I'm here to assist you with your queries!",
+    "My purpose is to help you find information and answer your questions!",
+    "I'm designed to assist you in any way I can!"
+  ],
+  "tell me a joke": [
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "Why don't skeletons fight each other? They don't have the guts!",
+    "What do you call fake spaghetti? An impasta!"
+  ],
+  "what is your favorite food": [
+    "I don't eat, but I love to hear about food!",
+    "Food is fascinating! What's your favorite?",
+    "I enjoy learning about different cuisines!"
+  ],
+  "what is your favorite movie": [
+    "I don't watch movies, but I love hearing about them!",
+    "Movies are a great way to tell stories!",
+    "I enjoy learning about different genres of films!"
+  ],
+  "what is your favorite book": [
+    "I love all kinds of books!",
+    "Books are a great source of knowledge!",
+    "I enjoy learning about different genres of literature!"
+  ],
+  "what is your favorite hobby": [
+    "I love chatting with you!",
+    "Learning new things is my favorite hobby!",
+    "I enjoy helping people with their queries!"
+  ],
+  "what is your favorite animal": [
+    "I love all animals!",
+    "Animals are fascinating! What's your favorite?",
+    "I enjoy learning about different species!"
+  ],
+  "what is your favorite season": [
+    "I love all seasons!",
+    "Each season has its own beauty!",
+    "I enjoy learning about different climates!"
+  ],
+  "what is your favorite sport": [
+    "I love all sports!",
+    "Sports are a great way to stay active!",
+    "I enjoy learning about different games!"
+  ],
+  "what is your favorite music": [
+    "I love all kinds of music!",
+    "Music is a great way to express emotions!",
+    "I enjoy learning about different genres!"
+  ],
+  "what is your favorite song": [
+    "I love all songs!",
+    "Songs are a great way to tell stories!",
+    "I enjoy learning about different genres of music!"
+  ],
+  "what is your favorite artist": [
+    "I love all artists!",
+    "Artists are a great way to express creativity!",
+    "I enjoy learning about different styles of art!"
+  ],
+  "what is your favorite place": [
+    "I love all places!",
+    "Places are a great way to learn about culture!",
+    "I enjoy learning about different locations!"
+  ],
+  "what is your favorite thing to do": [
+    "I love chatting with you!",
+    "Learning new things is my favorite activity!",
+    "I enjoy helping people with their queries!"
+  ],
+  "what is your favorite time of day": [
+    "I love all times of the day!",
+    "Each time has its own beauty!",
+    "I enjoy learning about different routines!"
+  ],
+  "what is your favorite holiday": [
+    "I love all holidays!",
+    "Holidays are a great way to celebrate!",
+    "I enjoy learning about different traditions!"
+  ],
+  "what is your favorite memory": [
+    "I love all memories!",
+    "Memories are a great way to learn from the past!",
+    "I enjoy learning about different experiences!"
+  ],
+  "what is your favorite quote": [
+    "I love all quotes!",
+    "Quotes are a great way to express wisdom!",
+    "I enjoy learning about different philosophies!"
+  ],
+  "what is your favorite saying": [
+    "I love all sayings!",
+    "Sayings are a great way to express culture!",
+    "I enjoy learning about different proverbs!"
+  ],
+  "what is your favorite word": [
+    "I love all words!",
+    "Words are a great way to express ideas!",
+    "I enjoy learning about different languages!"
+  ],
+  "what is your favorite number": [
+    "I love all numbers!",
+    "Numbers are a great way to express quantity!",
+    "I enjoy learning about different systems!"
+  ],
+  "what is your favorite shape": [
+    "I love all shapes!",
+    "Shapes are a great way to express form!",
+    "I enjoy learning about different geometries!"
+  ],
+  "what is your favorite color scheme": [
+    "I love all color schemes!",
+    "Color schemes are a great way to express design!",
+    "I enjoy learning about different palettes!"
+  ],
+  "what is your favorite texture": [
+    "I love all textures!",
+    "Textures are a great way to express feel!",
+    "I enjoy learning about different materials!"
+  ],
+  "what is your favorite pattern": [
+    "I love all patterns!",
+    "Patterns are a great way to express design!",
+    "I enjoy learning about different styles!"
+  ],
+  "what is your favorite style": [
+    "I love all styles!",
+    "Styles are a great way to express creativity!",
+    "I enjoy learning about different trends!"
+  ],
+  "what is your favorite trend": [
+    "I love all trends!",
+    "Trends are a great way to express culture!",
+    "I enjoy learning about different movements!"
+  ],
+  "default": [
+    "Sorry, I didn't understand that.",
+    "Could you please rephrase?",
+    "I'm not sure how to respond to that."
+  ]
+}
