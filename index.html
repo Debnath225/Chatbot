@@ -170,8 +170,8 @@
       function getResponse(userInput) {
         userInput = userInput.toLowerCase();
         if(userInput == ("what is the time now" || "time" || "now")){
-          console.log(date.toString());
-          return date.toString();
+          console.log(date.toDateString());
+          return date.toDateString();
         }
         if (responses[userInput]) {
           const answers = responses[userInput];
@@ -197,6 +197,7 @@
     </script>
   </body>
 </html>
+
 
 
 
