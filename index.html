@@ -148,6 +148,7 @@
 
       const chatWindow = document.getElementById("chatbot-response");
       const userInputField = document.getElementById("user-input");
+      const date = new Date;
       let responses = {}; // To store the loaded responses
 
       // Fetch responses from responses.json
@@ -168,6 +169,9 @@
       // Function to get a random response from the list of responses for a given question
       function getResponse(userInput) {
         userInput = userInput.toLowerCase();
+        if(userInput == ("what is the time now" || "time" || "now")){
+          return date.toString();
+        }
         if (responses[userInput]) {
           const answers = responses[userInput];
           return answers[Math.floor(Math.random() * answers.length)];
@@ -192,6 +196,7 @@
     </script>
   </body>
 </html>
+
 
 
 
