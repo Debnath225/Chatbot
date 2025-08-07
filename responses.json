@@ -271,10 +271,351 @@
     "Flask",
     "Next.js"
   ],
+  "What are the causes of poverty?": [
+    "Unemployment",
+    "Lack of education",
+    "Economic disparity",
+    "Corruption"
+  ],
+  "Types of plants?": [
+    "Bamboo",
+    "Oak",
+    "Maple",
+    "Rose",
+    "Fern"
+  ],
+  "What are the causes of addiction?": [
+    "Alcohol",
+    "Gambling",
+    "Social media",
+    "Gaming",
+    "Drugs"
+  ],
+  "Name some languages?": [
+    "French",
+    "Spanish",
+    "Mandarin",
+    "Arabic",
+    "English"
+  ],
+  "Name some countries?": [
+    "USA",
+    "Japan",
+    "Brazil",
+    "France",
+    "Germany"
+  ],
+  "List popular hobbies?": [
+    "Drawing",
+    "Traveling",
+    "Cooking",
+    "Reading",
+    "Photography"
+  ],
+  "What are the causes of global warming?": [
+    "Deforestation",
+    "Fossil fuel burning",
+    "Greenhouse gases",
+    "Overconsumption"
+  ],
+  "Name some cities?": [
+    "London",
+    "Dubai",
+    "Tokyo",
+    "Paris",
+    "New York"
+  ],
+  "What are the causes of inflation?": [
+    "Currency devaluation",
+    "Supply shortage",
+    "Demand rise",
+    "Oil price hikes"
+  ],
+  "List popular games?": [
+    "Minecraft",
+    "Fortnite",
+    "Among Us",
+    "PUBG",
+    "Valorant"
+  ],
+  "List popular festivals?": [
+    "Thanksgiving",
+    "Christmas",
+    "Holi",
+    "Diwali",
+    "Eid"
+  ],
+  "List popular technologies?": [
+    "Quantum Computing",
+    "Blockchain",
+    "5G",
+    "AI",
+    "IoT"
+  ],
+  "List popular tools?": [
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Postman",
+    "Kubernetes"
+  ],
+  "List popular frameworks?": [
+    "Vue.js",
+    "React",
+    "Django",
+    "Laravel",
+    "Angular"
+  ],
+  "What are the causes of obesity?": [
+    "Genetics",
+    "Unhealthy diet",
+    "Lifestyle choices",
+    "Lack of exercise"
+  ],
+  "List popular occupations?": [
+    "Scientist",
+    "Engineer",
+    "Artist",
+    "Teacher",
+    "Doctor"
+  ],
+  "Types of animals?": [
+    "Whale",
+    "Cat",
+    "Dog",
+    "Dolphin",
+    "Panda"
+  ],
+  "What are the causes of deforestation?": [
+    "Mining",
+    "Logging",
+    "Agriculture",
+    "Urbanization"
+  ],
+  "Name some celebrities?": [
+    "Emma Watson",
+    "Leonardo DiCaprio",
+    "Amitabh Bachchan",
+    "Taylor Swift",
+    "Tom Cruise"
+  ],
+  "List popular companies?": [
+    "Apple",
+    "Tesla",
+    "Google",
+    "Microsoft",
+    "Amazon"
+  ],
+  "Explain types of data structures?": [
+    "Array",
+    "Stack",
+    "Linked List",
+    "Queue",
+    "Heap"
+  ],
+  "Name some foods?": [
+    "Pasta",
+    "Burger",
+    "Biryani",
+    "Pizza",
+    "Tacos"
+  ],
+  "Explain types of networks?": [
+    "WAN",
+    "VPN",
+    "MAN",
+    "LAN",
+    "PAN"
+  ],
+  "Types of sports?": [
+    "Tennis",
+    "Volleyball",
+    "Football",
+    "Basketball",
+    "Cricket"
+  ],
+  "Types of programming languages?": [
+    "C",
+    "Java",
+    "Python",
+    "Swift",
+    "Ruby"
+  ],
+  "Types of energy sources?": [
+    "Geothermal",
+    "Biomass",
+    "Solar",
+    "Wind",
+    "Hydro"
+  ],
+  "What are the causes of pollution?": [
+    "Industrial waste",
+    "Deforestation",
+    "Plastic usage",
+    "Vehicle emissions"
+  ],
+  "What are the causes of migration?": [
+    "Climate change",
+    "Education",
+    "War",
+    "Employment"
+  ],
+  "Explain types of machine learning?": [
+    "Supervised",
+    "Unsupervised",
+    "Semi-supervised",
+    "Reinforcement"
+  ],
+  "Types of clouds?": [
+    "Cumulonimbus",
+    "Cumulus",
+    "Stratus",
+    "Cirrus",
+    "Nimbus"
+  ],
+  "What are the causes of conflicts?": [
+    "Religious tensions",
+    "Political differences",
+    "Resource scarcity",
+    "Territorial disputes"
+  ],
+  "Name some movies?": [
+    "Inception",
+    "Titanic",
+    "Forrest Gump",
+    "The Godfather",
+    "Avatar"
+  ],
+  "Explain types of cloud computing models?": [
+    "SaaS",
+    "IaaS",
+    "DaaS",
+    "FaaS",
+    "PaaS"
+  ],
+  "Name some mountains?": [
+    "Kilimanjaro",
+    "K2",
+    "Everest",
+    "Rockies",
+    "Alps"
+  ],
+  "List popular apps?": [
+    "Telegram",
+    "Snapchat",
+    "Spotify",
+    "WhatsApp",
+    "Instagram"
+  ],
+  "Types of dances?": [
+    "Ballet",
+    "Breakdance",
+    "Kathak",
+    "Tango",
+    "Hip-Hop"
+  ],
+  "Explain types of cyber attacks?": [
+    "Man-in-the-middle",
+    "DDoS",
+    "Phishing",
+    "Ransomware",
+    "SQL Injection"
+  ],
+  "Name some currencies?": [
+    "Yen",
+    "Dollar",
+    "Euro",
+    "Pound",
+    "Rupee"
+  ],
+  "Explain types of databases?": [
+    "SQLite",
+    "PostgreSQL",
+    "Oracle",
+    "MongoDB",
+    "MySQL"
+  ],
+  "Types of vehicles?": [
+    "Truck",
+    "Bike",
+    "Car",
+    "Train",
+    "Bus"
+  ],
+  "Name some rivers?": [
+    "Amazon",
+    "Danube",
+    "Ganga",
+    "Nile",
+    "Mississippi"
+  ],
+  "Explain types of cryptocurrencies?": [
+    "Bitcoin",
+    "Ethereum",
+    "Litecoin",
+    "Dogecoin",
+    "Ripple"
+  ],
+  "Name some books?": [
+    "Pride and Prejudice",
+    "To Kill a Mockingbird",
+    "Harry Potter",
+    "1984",
+    "The Hobbit"
+  ],
+  "Explain types of art styles?": [
+    "Realism",
+    "Abstract",
+    "Cubism",
+    "Impressionism",
+    "Surrealism"
+  ],
+  "List popular websites?": [
+    "Facebook",
+    "Google",
+    "Wikipedia",
+    "YouTube",
+    "Twitter"
+  ],
+  "Types of music genres?": [
+    "Hip-Hop",
+    "Pop",
+    "Jazz",
+    "EDM",
+    "Rock"
+  ],
+  "Types of instruments?": [
+    "Violin",
+    "Drums",
+    "Flute",
+    "Piano",
+    "Guitar"
+  ],
+  "Explain types of AI models?": [
+    "GPT",
+    "T5",
+    "DALL\u00b7E",
+    "BERT",
+    "LLaMA"
+  ],
+  "What are the causes of stress?": [
+    "Financial issues",
+    "Relationship problems",
+    "Lack of sleep",
+    "Workload"
+  ],
+  "Explain types of algorithms?": [
+    "Greedy",
+    "Dynamic Programming",
+    "Backtracking",
+    "Sorting",
+    "Searching"
+  ],
   "default": [
     "Sorry, I didn't understand that.",
     "Could you please rephrase?",
     "I'm not sure how to respond to that."
   ]
 }
+
 
