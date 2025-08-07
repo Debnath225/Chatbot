@@ -168,9 +168,113 @@
     "Trends are a great way to express culture!",
     "I enjoy learning about different movements!"
   ],
+  "What are the different types of clouds?": [
+    "Cumulus",
+    "Stratus",
+    "Cirrus",
+    "Nimbus",
+    "Cumulonimbus",
+    "Altostratus",
+    "Altocumulus"
+  ],
+  "Name some programming languages.": [
+    "Python",
+    "Java",
+    "C",
+    "C++",
+    "JavaScript",
+    "Ruby",
+    "Go",
+    "Rust",
+    "PHP",
+    "Swift"
+  ],
+  "What are renewable sources of energy?": [
+    "Solar energy",
+    "Wind energy",
+    "Hydropower",
+    "Geothermal energy",
+    "Biomass energy",
+    "Tidal energy",
+    "Wave energy"
+  ],
+  "What are the states of matter?": [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Plasma",
+    "Bose-Einstein Condensate",
+    "Quark-Gluon Plasma"
+  ],
+  "List some operating systems.": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android",
+    "iOS",
+    "Ubuntu",
+    "Debian",
+    "Fedora",
+    "Kali Linux",
+    "Chrome OS"
+  ],
+  "What are some causes of global warming?": [
+    "Burning of fossil fuels",
+    "Deforestation",
+    "Industrial emissions",
+    "Agricultural practices",
+    "Vehicle emissions",
+    "Landfill waste",
+    "Overconsumption"
+  ],
+  "What are basic human rights?": [
+    "Right to life",
+    "Right to education",
+    "Freedom of speech",
+    "Right to privacy",
+    "Freedom of religion",
+    "Right to equality",
+    "Right to work",
+    "Right to health"
+  ],
+  "List some planets in our solar system.": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune"
+  ],
+  "Name some common data structures.": [
+    "Array",
+    "Linked List",
+    "Stack",
+    "Queue",
+    "Tree",
+    "Graph",
+    "Hash Table",
+    "Heap",
+    "Trie",
+    "Set"
+  ],
+  "What are some popular web development frameworks?": [
+    "React",
+    "Angular",
+    "Vue.js",
+    "Django",
+    "Laravel",
+    "Ruby on Rails",
+    "Express.js",
+    "Spring Boot",
+    "Flask",
+    "Next.js"
+  ],
   "default": [
     "Sorry, I didn't understand that.",
     "Could you please rephrase?",
     "I'm not sure how to respond to that."
   ]
 }
+
