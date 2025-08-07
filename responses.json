@@ -10,6 +10,11 @@
     "You can call me ChatBuddy!",
     "ChatBot at your service!"
   ],
+  "what's your name" : [
+    "I donit't have any specific name",
+    "I am a chatbot",
+    "I don't have any name."
+  ],
   "bye": ["Goodbye!", "See you later!", "Bye! Have a great day!"],
   "thank you": ["You're welcome!", "No problem!", "Glad to help!"],
   "help": [
@@ -617,5 +622,6 @@
     "I'm not sure how to respond to that."
   ]
 }
+
 
 
